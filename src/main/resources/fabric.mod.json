@@ -1,0 +1,21 @@
+{
+  "_see_configuration_file_reference_at": "https://fabricmc.net/wiki/documentation:fabric_mod_json",
+  "schemaVersion": 1,
+  "id": "kotlin-fabric-template",
+  "version": "1.0-SNAPSHOT",
+  "name": "kotlin-fabric-template",
+  "description": "This mod comes with no description.",
+  "authors": ["Me"],
+  "contact": {
+    "sources": "https://github.com/Grabsky/kotlin-fabric-template",
+    "issues": "https://github.com/Grabsky/kotlin-fabric-template/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["just.testing.client.ClientMain"],
+    "server": ["just.testing.server.ServerMain"]
+  },
+  "mixins": [],
+  "depends": { "minecraft": "1.19" }
+}
